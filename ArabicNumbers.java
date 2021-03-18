@@ -15,7 +15,7 @@ public class ArabicNumbers extends Function {
         this.result = value1 + value2;
         }
         else {
-        	System.out.println("Не коректный ввод данных. Введите новые значения");
+        	System.out.println("РќРµ РєРѕСЂРµРєС‚РЅС‹Р№ РІРІРѕРґ РґР°РЅРЅС‹С…. Р’РІРµРґРёС‚Рµ РЅРѕРІС‹Рµ Р·РЅР°С‡РµРЅРёСЏ");
         }
     }
 
@@ -25,7 +25,7 @@ public class ArabicNumbers extends Function {
         }
     	else {
     		
-    		System.out.println("Не коректный ввод данных. Введите новые значения");
+    		System.out.println("РќРµ РєРѕСЂРµРєС‚РЅС‹Р№ РІРІРѕРґ РґР°РЅРЅС‹С…. Р’РІРµРґРёС‚Рµ РЅРѕРІС‹Рµ Р·РЅР°С‡РµРЅРёСЏ");
     	}
     }
 
@@ -35,10 +35,10 @@ public class ArabicNumbers extends Function {
             this.result = value1 / value2;
             }
         	else {
-        		System.out.println("Не коректный ввод данных. Введите новые значения");
+        		System.out.println("РќРµ РєРѕСЂРµРєС‚РЅС‹Р№ РІРІРѕРґ РґР°РЅРЅС‹С…. Р’РІРµРґРёС‚Рµ РЅРѕРІС‹Рµ Р·РЅР°С‡РµРЅРёСЏ");
         	}
         } catch (ArithmeticException e) {
-            System.out.print("Деление на 0! ");
+            System.out.print("Р”РµР»РµРЅРёРµ РЅР° 0! ");
             return;
         }
         
@@ -49,7 +49,7 @@ public class ArabicNumbers extends Function {
         this.result = value1 * value2;
         }
         else {
-    	System.out.println("Не коректный ввод данных. Введите новые значения");
+    	System.out.println("РќРµ РєРѕСЂРµРєС‚РЅС‹Р№ РІРІРѕРґ РґР°РЅРЅС‹С…. Р’РІРµРґРёС‚Рµ РЅРѕРІС‹Рµ Р·РЅР°С‡РµРЅРёСЏ");
         }
     }
 
